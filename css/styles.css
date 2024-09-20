@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Anton", sans-serif;
+}
+
+.text-color-white {
+  color: #fff;
+}
+
+.text-color-bright-pink {
+  color: #ff1e56;
+  font-weight: 500;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  border: none;
+  padding: 1em 3em;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: #00bfff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #00a3cc;
+}
+
+/* Navigation Section */
+.header {
+  padding: 2em;
+  background-color: #0a1128;
+}
+
+.navbar-list-items {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+.navbar-list-item {
+  margin-right: 1em;
+}
+
+.navbar-link {
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  color: #00ff88;
+}
+/* End of Navigation Section */
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  background: linear-gradient(135deg, #0a1128, #0077ff);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+
+.hero-title {
+  font-size: 1.75rem;
+}
+
+.hero-subheading {
+  margin: .8em 0 1.8em 0;
+  color: #ffffff;
+}
+
+/* Anime Section */
+.animes {
+  padding: 60px 0 50px 0;
+  background-color: #0a1128;
+}
+
+.animes .main-title {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+/* End of Anime Section */

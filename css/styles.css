@@ -95,6 +95,7 @@ h3 {
 }
 
 .header,
+.hero,
 .hero-title,
 .hero-subheading,
 .btn-primary {
@@ -109,6 +110,8 @@ h3 {
 .hero-subheading {
   margin: .8em 0 1.8em 0;
   color: #ffffff;
+  text-shadow: 2px 2px 0 #ff1e56;
+
 }
 
 /* Anime Section */

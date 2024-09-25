@@ -160,6 +160,8 @@ h3 {
 }
 /* End of Anime Section */
 
+
+/* Media Queries */
 @media (min-width: 640px) {
   .navbar-list-items {
     justify-content: flex-end;
@@ -205,5 +207,4 @@ h3 {
   .animes-container {
     grid-template-columns: repeat(4,  1fr);
   }
-
 }

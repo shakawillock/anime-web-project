@@ -45,8 +45,8 @@ h3 {
 }
 
 .btn-primary:hover,
-.btn-primary:focus {
-  background-color: #00a3cc;
+.btn-secondary:hover {
+  background-color: #00a3cc;          
 }
 
 /* Navigation Section */
